@@ -1,5 +1,5 @@
 {% set name = "kvf" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kvf-{{ version }}.tar.gz
-  sha256: 5c5c0ab8966b311ad7344dc76a8c8ae1ae4604f39081c9f823597aecfc52fad0
+  sha256: f4885b1bbe66c8c20fdabe5cedeb3c0e5d12a54ac495f9e5fcf6fed0e0c51b73
 
 build:
   entry_points:
